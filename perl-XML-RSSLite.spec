@@ -11,7 +11,7 @@ Name:		perl-XML-RSSLite
 Version:	0.11
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	96940cdc3c85958a0825c44245750bd6
@@ -46,7 +46,6 @@ oraz odno¶nik do kana³u i jego elementów.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
