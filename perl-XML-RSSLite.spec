@@ -32,7 +32,7 @@ link for a channel and its items.
 
 %description -l pl
 Ten modu³ próbuje wydobyæ maksymaln± ilo¶æ tre¶ci z dostêpnych
-dokumentów i jest mniej skupiony na zgodno¶ci z XML ni¿ zamienniki.
+dokumentów i jest mniej skupiony na zgodno¶ci z XML-em ni¿ zamienniki.
 Zamiast polegaæ na XML::Parser, u¿ywa heurystyki i starych, dobrych
 perlowych wyra¿eñ regularnych. Zapisuje dane w prostej strukturze
 haszowanej i nadaje aliasy pewnym znacznikom, przez co mo¿na liczyæ na
