@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	RSSLite
+%define		pdir	XML
+%define		pnam	RSSLite
 Summary:	XML::RSSLite - lightweight, "relaxed" RSS (and XML-ish) parser
 Summary(pl):	XML::RSSLite - lekki, "os³abiony" analizator RSS (i XML-owy)
 Name:		perl-XML-RSSLite
