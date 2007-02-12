@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	RSSLite
 Summary:	XML::RSSLite - lightweight, "relaxed" RSS (and XML-ish) parser
-Summary(pl):	XML::RSSLite - lekki, "os≥abiony" analizator RSS (i XML-owy)
+Summary(pl.UTF-8):   XML::RSSLite - lekki, "os≈Çabiony" analizator RSS (i XML-owy)
 Name:		perl-XML-RSSLite
 Version:	0.11
 Release:	1
@@ -30,15 +30,15 @@ you can count on having the minimal data necessary for re-constructing
 a valid RSS file. This means you get the basic title, description, and
 link for a channel and its items.
 
-%description -l pl
-Ten modu≥ prÛbuje wydobyÊ maksymaln± ilo∂Ê tre∂ci z dostÍpnych
-dokumentÛw i jest mniej skupiony na zgodno∂ci z XML-em niø zamienniki.
-Zamiast polegaÊ na XML::Parser, uøywa heurystyki i starych, dobrych
-perlowych wyraøeÒ regularnych. Zapisuje dane w prostej strukturze
-haszowanej i nadaje aliasy pewnym znacznikom, przez co moøna liczyÊ na
-posiadanie minimalnej ilo∂ci danych potrzebnych do odtworzenia
-poprawnego pliku RSS. Oznacza to, øe dostajemy podstawowy tytu≥, opis
-oraz odno∂nik do kana≥u i jego elementÛw.
+%description -l pl.UTF-8
+Ten modu≈Ç pr√≥buje wydobyƒá maksymalnƒÖ ilo≈õƒá tre≈õci z dostƒôpnych
+dokument√≥w i jest mniej skupiony na zgodno≈õci z XML-em ni≈º zamienniki.
+Zamiast polegaƒá na XML::Parser, u≈ºywa heurystyki i starych, dobrych
+perlowych wyra≈ºe≈Ñ regularnych. Zapisuje dane w prostej strukturze
+haszowanej i nadaje aliasy pewnym znacznikom, przez co mo≈ºna liczyƒá na
+posiadanie minimalnej ilo≈õci danych potrzebnych do odtworzenia
+poprawnego pliku RSS. Oznacza to, ≈ºe dostajemy podstawowy tytu≈Ç, opis
+oraz odno≈õnik do kana≈Çu i jego element√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
