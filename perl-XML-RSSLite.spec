@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	RSSLite
 Summary:	XML::RSSLite - lightweight, "relaxed" RSS (and XML-ish) parser
-Summary(pl.UTF-8):   XML::RSSLite - lekki, "osłabiony" analizator RSS (i XML-owy)
+Summary(pl.UTF-8):	XML::RSSLite - lekki, "osłabiony" analizator RSS (i XML-owy)
 Name:		perl-XML-RSSLite
 Version:	0.11
 Release:	1
