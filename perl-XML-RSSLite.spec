@@ -8,13 +8,13 @@
 Summary:	XML::RSSLite - lightweight, "relaxed" RSS (and XML-ish) parser
 Summary(pl.UTF-8):	XML::RSSLite - lekki, "osłabiony" analizator RSS (i XML-owy)
 Name:		perl-XML-RSSLite
-Version:	0.11
-Release:	2
+Version:	0.15
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	96940cdc3c85958a0825c44245750bd6
+# Source0-md5:	965efb72d844e44ea551c640666551fd
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
