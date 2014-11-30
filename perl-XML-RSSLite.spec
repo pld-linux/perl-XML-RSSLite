@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	RSSLite
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::RSSLite - lightweight, "relaxed" RSS (and XML-ish) parser
 Summary(pl.UTF-8):	XML::RSSLite - lekki, "osłabiony" analizator RSS (i XML-owy)
 Name:		perl-XML-RSSLite
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	965efb72d844e44ea551c640666551fd
+URL:		http://search.cpan.org/dist/XML-RSSLite/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
